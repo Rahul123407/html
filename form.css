@@ -1,0 +1,41 @@
+label{
+    text-align: center;
+}
+form{
+    text-align: center;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+.submit{
+    padding: 10px;
+
+}
+body{
+    text-align: center;
+    background-color: azure;
+}
+input[type=submit]{
+    background-color: green;
+}
+input[type=submit] hover{
+    background-color: green;
+
+}
+.submit{
+    padding: 10px;
+}
+body{
+    text-align: center;
+    background-color: lightblue;
+}
+input[type=submit]{
+    background-color: green;
+}
+input[type=submit] :hover{
+    background-color: green;
+}
+table{
+    margin: 0 auto;
+}
