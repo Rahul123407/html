@@ -7,10 +7,10 @@
 </head>
 <body>
     <center>
-        <h1>CALCULATOR</h1>
+        <h1><u>CALCULATOR</u></h1>
         <input size="40" type="text" id="result" readonly><br><br>
         <table border="30" cellspacing="20" bgcolor="lightblue">
-            <tr height="20">
+            <tr height="20" id="one">
                 <td bgcolor="black"><button onclick="append(7)">7</button></td>
                 <td bgcolor="black"><button onclick="append(8)">8</button></td>
                 <td bgcolor="black"><button onclick="append(9)">9</button></td>
@@ -39,10 +39,30 @@
 <style>
     body{
         background-color: blanchedalmond;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        font-family: Arial, sans-serif;
     }
     h1{
         color: blue;
+        font-size: 50px;
     }
+    .one{
+        box-shadow: 10px black;
+    }
+    button{
+        width: 60px;
+        height: 60px;
+        font-size: 25px;
+    }
+    input{
+        height: 50px;
+        width: 400px;
+        font-size: 20px;
+    }
+
 </style>
 <script src="calc.js"></script>
 <link rel="stylesheet" href="">
